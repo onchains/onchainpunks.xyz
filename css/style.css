@@ -56,13 +56,40 @@ button.mint {
   height: 50px;
   padding: 20px;
 }
-.content > .tokenURI {
-  padding-top: 60px;
+.content > .tokenuri {
+  padding-top: 10px;
   font-size: 20px;
 }
-.content > .tokenURI > pre {
-  white-space: pre-wrap;
-  word-break: break-all;
+.content > .tokenuri > .value {
+  padding-top: 10px;
+}
+.content > .tokenuri .textarea {
+  width: 100%;
+  height: 200px;
+}
+.content > .tokenuri > .image {
+  padding-top: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.content > .tokenuri > .image > img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+input.tokenid {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 9px;
+  width: 60px;
+}
+button.tokenuri {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
   font-size: 14px;
 }
 .footer {
