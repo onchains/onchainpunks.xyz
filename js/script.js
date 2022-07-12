@@ -62,7 +62,7 @@ tokenURI = async () => {
     document.getElementById('tokenuri-image').src = json.image;
   } catch (err) {
     document.getElementById('tokenuri-value').value = err.message;
-    document.getElementById('tokenuri-image').src = '';
+    document.getElementById('tokenuri-image').src = './img/svg/error.svg';
   }
 }
 
